@@ -7,20 +7,20 @@ class TreeNode:
 if __name__ == "__main__":
     # tree looks like this:
     #
-    #      4
+    #      4       layer 0
     #    /   \
-    #   2     6
+    #   2     6    layer 1
     #  / \   / \
-    # 1   3 5   7
+    # 1   3 5   7  layer 2
 
-    # layer 3
+    # layer 0
     root = TreeNode(4)
 
-    # layer 2
+    # layer 1
     root.left = TreeNode(2)
     root.right = TreeNode(6)
 
-    # layer 1
+    # layer 2
     root.left.left = TreeNode(1)
     root.left.right = TreeNode(3)
 
