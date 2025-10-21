@@ -53,9 +53,9 @@ if __name__ == "__main__":
     # demo of prio queue
     queue = PriorityQueue()
     queue.get()
-    queue.add("Song 1", 5)
-    queue.add("Song 2", 8)
-    queue.add("Song 3", 8)
+    queue.add("Song 1", 8)
+    queue.add("Song 2", 5)
+    queue.add("Song 3", 10)
     queue.print_queue()
     queue.get()
     queue.print_queue()
