@@ -82,7 +82,6 @@ if __name__ == "__main__":
     queue.add("Song 4", 0)
     queue.add("Song 5", 0)
     queue.print_queue()
-
     # result
     # 
     # [(value: Song 1, priority: 0), (value: Song 2, priority: 0), (value: Song 3, priority: 0), 
